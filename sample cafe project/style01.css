@@ -1,0 +1,115 @@
+       /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #fafafa;
+    color: #333;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+nav ul {
+    list-style-type: none;
+    background-color: #784200;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 25px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+header {
+    text-align: center;
+    padding: 60px;
+    background-color: #3a2000;
+    background-image: url(cafewallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: rgb(255, 255, 255);
+}
+header h1 {
+    font-size: 5em;
+    margin-bottom: 10px;
+    margin-top: auto;
+}
+header p {
+    font-size: 1.2em;
+    margin-top: auto;
+}
+section {
+    padding: 40px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: auto;
+    color: rgb(255, 255, 255);
+}
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    gap: 15px;
+    margin-top: auto;
+}
+form label {
+    font-weight: bold;
+}
+form input {
+    padding: 12px;
+    font-size: 1.1em;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    padding: 12px;
+    background-color: #f0a500;
+    border: none;
+    font-size: 1.3em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+form button:hover {
+    background-color: #d88900;
+}
+.map-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.testimonial {
+    background-color: #f9f9f9;
+    border-left: 5px solid #f0a500;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+    margin-top: auto;
+}
+footer {
+    background-color: #784200;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+}
+footer p {
+    font-size: 1em;
+    margin-top: auto;
+}
